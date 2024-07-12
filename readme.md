@@ -1,0 +1,2 @@
+### Accounts
+An account represents access control over a set of assets including on-chain currency and NFTs. In Aptos, these assets are represented by resources that emphasize both access control and scarcity.
