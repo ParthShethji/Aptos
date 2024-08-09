@@ -1,0 +1,22 @@
+[package]
+name = "move"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Aptogotchi = ''
+
+[dev-addresses]
+
+#[dependencies.AptosFramework]
+#git = "https://github.com/aptos-labs/aptos-core.git"
+#rev = "testnet"
+#subdir = "aptos-move/framework/aptos-framework"
+
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "testnet", subdir = "aptos-move/framework/aptos-framework"}
+AptosTokenObjects = {git = "https://github.com/aptos-labs/aptos-core.git", rev = "testnet", subdir = "aptos-move/framework/aptos-token-objects"}
+
+
+[dev-dependencies]
